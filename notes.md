@@ -33,12 +33,59 @@ isinstance(数据，类型)--->bool值
         """你  
          好 """
 
-转义字符：  
+转义字符：  \  
 - \\': 单引号 
 - \\": 双引号 
 - \\n: 换行符
-- \\t: 制表符 tab:
+- \\t: 制表符 tab:  
 
+字符串拼接：  
+- "+"号可以拼接两个字符串或者字面量（非字符串类型需要转换为字符串类型）  
+- str( )    ； 强制转string  
+- int( )
+- float( )
+- bool( )
+
+
+- 占位符：%s  
+name = "xiao"  
+age = 10  
+pro = "software engineering"  
+hobby = "python"  
+print("my name is %s, I am %s, study %s, my hobby is %s" % (name, age, pro, hobby))  4
+
+
+- **f"内容{变量、表达式}"**     (企业开发推荐）  
+name = "xiao"  
+print(f"my name is {name }")  
+  
+/n
+
+**输入与输出**  
+- **input**  
+- input (提示)  // 获取到的都是字符串类型  
+name = input("请输入你的姓名：")  
+print(f"my name is {name}")  
+
+
+算术运算符：  
++ 加 - 减 * 乘 / 除  除法结果一定是float  
+// 整除 % 取余 ** 幂指数   
+
+赋值运算符  
+- = += -= %=
+
+比较运算符  
+返回布尔值  Ture False  
+== != > < >=  
+  
+逻辑运算符  
+and or not 
+  
+#
+
+### 数据逻辑处理
+   
 
 
 
